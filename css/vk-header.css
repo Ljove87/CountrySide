@@ -1,0 +1,115 @@
+header {
+  min-height: auto;
+  border: 0;
+  box-shadow: none;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 10px 0 0 0;
+  float: left;
+  width: 100%;
+}
+
+.site-title,
+.site-description {
+  display: none;
+}
+
+.country-logo {
+  margin: 0;
+}
+
+.country-logo-style {
+  width: 187px;
+  height: 60px;
+  margin: 0 0 0 50px;
+}
+.menu-navigation {
+  margin-top: 5px;
+}
+
+/* STYLING UL ELEMENTS */
+
+.navbar-nav {
+  color: #333333;
+  margin-left: 70px;
+}
+
+.nav-item {
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+nav .navbar-nav li a {
+  color: #2e2e2e !important;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1255px) {
+  .nav-item {
+    padding-left: 20px;
+  }
+
+  .nav .navbar-nav li a {
+    font-size: 14px;
+  }
+}
+
+nav .navbar-nav li a:hover {
+  color: #0082ff !important;
+}
+
+.vk-header-cta-class {
+  text-align: right;
+}
+
+a.vk-header-phone {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 57px;
+  color: #0082ff;
+  margin-left: -100px;
+  font-weight: 600;
+  float: left;
+  margin-top: -5px;
+}
+
+.vk-header-estimate {
+  font-size: 16px;
+  letter-spacing: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: #0082ff;
+  font-weight: 500;
+  padding: 14px 20px;
+  height: 50px;
+  margin-left: 50px;
+
+  color: white !important;
+  float: left;
+}
+
+.vk-header-arrow-span {
+  font-size: 16px;
+  margin-right: 100px;
+  letter-spacing: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #2c95f6;
+  padding: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: 50px;
+  float: right;
+}
+
+@media screen and (max-width: 1689px) {
+  .vk-header-estimate,
+  .vk-header-arrow-span,
+  a.vk-header-phone {
+    display: none;
+  }
+}
